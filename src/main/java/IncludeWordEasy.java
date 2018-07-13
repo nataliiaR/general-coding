@@ -13,19 +13,16 @@ public class IncludeWordEasy {
     public String isIncludedIn(String[] word1, String [] word2) {
         String status = "isNotIncluded";
         ArrayList<String> equalword = new ArrayList<String>();
-        int i = 0;
-        int j= -1;
-        if (j == word2.length-1){
-            i=i+1;
-        }
 
-        j=j+1;
 
-        for(;j < word2.length && i< word1.length;) {
+        for(int i = 0, j= 0; j < word2.length && i< word1.length; j++) {
 
             if (word1[i] == word2[j]) {
                 equalword.add(word2[j]);
 
+            }
+            if (j == word2.length-1){
+                i=i+1;
             }
 
         }
