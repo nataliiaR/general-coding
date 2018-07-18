@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="660db74b-53c0-434c-9c86-731051ecef39" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/IncludeWordViaMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IncludeWordEasy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FindDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FindDuplicates.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FindDuplicates.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Runner.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IncludeWordViaMapTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IncludeWordViaMapTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/IncludeWordViaMapTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/IncludeWordTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,13 +53,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Runner.java">
+      <file leaf-file-name="FindDuplicates.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FindDuplicates.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" selection-start-line="10" selection-end-line="17" selection-end-column="59" />
+            <state relative-caret-position="213">
+              <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1328#1337#0" expanded="true" />
+                <element signature="e#1411#1429#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindDuplicatesTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/FindDuplicatesTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="e#527#536#0" expanded="true" />
+                <element signature="e#946#955#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,13 +96,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Runner.java" />
         <option value="$PROJECT_DIR$/src/test/java/IncludeWordTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/IncludeWord.java" />
         <option value="$PROJECT_DIR$/src/main/java/IncludeWordEasy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FindDuplicates.java" />
         <option value="$PROJECT_DIR$/src/main/java/IncludeWordViaMap.java" />
         <option value="$PROJECT_DIR$/src/test/java/IncludeWordViaMapTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Runner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FindDuplicatesTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FindDuplicates.java" />
       </list>
     </option>
   </component>
@@ -170,11 +189,6 @@
       <module name="Interview_coding" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="IncludeWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IncludeWord" />
-      <module name="Interview_coding" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
     <configuration name="IncludeWordViaMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IncludeWordViaMap" />
       <module name="Interview_coding" />
@@ -182,6 +196,23 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="FindDuplicatesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Interview_coding" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FindDuplicatesTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="IncludeWordTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Interview_coding" />
@@ -256,19 +287,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.IncludeWordTest" />
-      <item itemvalue="Application.IncludeWord" />
       <item itemvalue="Application.IncludeWordViaMap" />
       <item itemvalue="Application.FindDuplicates" />
       <item itemvalue="JUnit.IncludeWordViaMapTest" />
+      <item itemvalue="JUnit.FindDuplicatesTest" />
+      <item itemvalue="JUnit.IncludeWordTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.IncludeWordViaMapTest" />
-        <item itemvalue="Application.IncludeWordViaMap" />
-        <item itemvalue="Application.FindDuplicates" />
-        <item itemvalue="Application.IncludeWord" />
         <item itemvalue="JUnit.IncludeWordTest" />
+        <item itemvalue="JUnit.FindDuplicatesTest" />
+        <item itemvalue="Application.FindDuplicates" />
+        <item itemvalue="Application.IncludeWordViaMap" />
       </list>
     </recent_temporary>
   </component>
@@ -286,24 +317,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IncludeWordTest - 2018.07.13 at 12h 19m 53s.xml">
-      <configuration name="IncludeWordTest" configurationId="JUnit" />
+    <history-entry file="FindDuplicatesTest - 2018.07.18 at 12h 35m 55s.xml">
+      <configuration name="FindDuplicatesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IncludeWordTest - 2018.07.13 at 12h 20m 58s.xml">
-      <configuration name="IncludeWordTest" configurationId="JUnit" />
+    <history-entry file="FindDuplicatesTest - 2018.07.18 at 12h 36m 58s.xml">
+      <configuration name="FindDuplicatesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IncludeWordTest - 2018.07.13 at 12h 21m 58s.xml">
-      <configuration name="IncludeWordTest" configurationId="JUnit" />
+    <history-entry file="FindDuplicatesTest - 2018.07.18 at 12h 38m 29s.xml">
+      <configuration name="FindDuplicatesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IncludeWordTest - 2018.07.13 at 12h 22m 11s.xml">
-      <configuration name="IncludeWordTest" configurationId="JUnit" />
+    <history-entry file="FindDuplicatesTest - 2018.07.18 at 12h 38m 43s.xml">
+      <configuration name="FindDuplicatesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="IncludeWordTest - 2018.07.13 at 12h 22m 19s.xml">
-      <configuration name="IncludeWordTest" configurationId="JUnit" />
+    <history-entry file="FindDuplicatesTest - 2018.07.18 at 12h 53m 22s.xml">
+      <configuration name="FindDuplicatesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindDuplicatesTest - 2018.07.18 at 12h 55m 04s.xml">
+      <configuration name="FindDuplicatesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindDuplicatesTest - 2018.07.18 at 12h 57m 24s.xml">
+      <configuration name="FindDuplicatesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindDuplicatesTest - 2018.07.18 at 13h 04m 02s.xml">
+      <configuration name="FindDuplicatesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindDuplicatesTest - 2018.07.18 at 13h 04m 23s.xml">
+      <configuration name="FindDuplicatesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindDuplicatesTest - 2018.07.18 at 13h 05m 19s.xml">
+      <configuration name="FindDuplicatesTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -314,11 +361,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -368,9 +415,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="10" selection-start-line="10" selection-end-line="17" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -412,9 +456,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="10" selection-start-line="10" selection-end-line="17" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -422,16 +463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" selection-start-line="10" selection-end-line="17" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -452,28 +483,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FindDuplicates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-82">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding>
-            <element signature="e#731#740#0" expanded="true" />
-            <element signature="e#1314#1323#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/IncludeWordViaMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/IncludeWordTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -483,9 +496,42 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/IncludeWordViaMapTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Runner.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/IncludeWordViaMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FindDuplicatesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#527#536#0" expanded="true" />
+            <element signature="e#946#955#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FindDuplicates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1328#1337#0" expanded="true" />
+            <element signature="e#1411#1429#0" expanded="true" />
           </folding>
         </state>
       </provider>

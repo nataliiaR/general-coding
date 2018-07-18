@@ -1,61 +1,75 @@
 
+import java.lang.reflect.Array;
 import java.util.*;
 
 public class FindDuplicates {
 
 
-    public static void main (String [] args ){
-
-        int [] listWithDuplicates = {1,1,65,34,76,65,3,1};
-        FindDuplicates finder = new FindDuplicates();
-        ArrayList<Integer> listwithNoduplicates= finder.removeDuplicates(listWithDuplicates);
-        Set<Integer> setwithNoDuplicates= finder.makeASet(listWithDuplicates);
-
-        for (Integer integer :listwithNoduplicates){
-            System.out.println ("list with no duplicates per element  " + integer);
-
-        }
-        for(Integer integer:setwithNoDuplicates){
-           System.out.println ("set with no duplicates per element  " + integer);
+    // find the elements that are duplicates using the map data structure
+    public Set<Integer> makeASet(int[] listWithDuplicates) {
+        Set<Integer> setwithNoduplicates = new HashSet<Integer>();
+        for (int i = 0; i < listWithDuplicates.length; i++) {
+            setwithNoduplicates.add(listWithDuplicates[i]);
         }
 
+        return setwithNoduplicates;
     }
 
+    // find the elements that are duplicates using ArrayList data structure
+    public ArrayList<Integer> removeDuplicates(int[] listWithDuplicates) {
 
-
-    public Set<Integer> makeASet (int [] listWithDuplicates){
-         Set<Integer> setwithNoduplicates = new HashSet<Integer>();
-         for (int i= 0; i<listWithDuplicates.length; i++){
-             setwithNoduplicates.add(listWithDuplicates[i]);
-         }
-
-         return setwithNoduplicates;
-    }
-
-
-    public ArrayList<Integer> removeDuplicates (int [] listWithDuplicates){
-
-            ArrayList<Integer> listWithNoDuplicates = new ArrayList<Integer>();
-            for (int i = 0; i< listWithDuplicates.length; i++){
+        ArrayList<Integer> listWithNoDuplicates = new ArrayList<Integer>();
+        for (int i = 0; i < listWithDuplicates.length; i++) {
             boolean exist = false;
-            for (int integer: listWithNoDuplicates){
-                if (listWithDuplicates[i]==integer){
+            for (int integer : listWithNoDuplicates) {
+                if (listWithDuplicates[i] == integer) {
                     exist = true;
-                    System.out.println("value of exist when we check a list  "+ exist);
                     break;
                 }
 
             }
-            if (!exist){
-                System.out.println("value of exist when we add to the list  "+ exist);
+            if (!exist) {
+
                 listWithNoDuplicates.add(listWithDuplicates[i]);
             }
         }
 
 
-
-        return  listWithNoDuplicates;
+        return listWithNoDuplicates;
     }
 
+    //find elements that appears only once in the list - using map to store key/value and then list to write down needed values
+
+    public ArrayList<Integer> extractUnique(Integer[] array) {
+        ArrayList <Integer> unique = new ArrayList<Integer>();
+        //write a map
+        HashMap<Integer, Integer> extractedUniqueElements = new HashMap<Integer, Integer>();
+        for (int i = 0; i < array.length; i++) {
+
+            if (extractedUniqueElements.get(array[i]) == null) {
+                extractedUniqueElements.put(array[i], 1);
+
+            } else {
+
+                extractedUniqueElements.put(array[i], extractedUniqueElements.get(array[i]) + 1);
+
+            }
+        }
+
+        Iterator it = extractedUniqueElements.entrySet().iterator();
+            while (it.hasNext()) {
+                Map.Entry pair = (Map.Entry)it.next();
+
+                if(new Integer(pair.getValue().toString())==1){
+                    unique.add(new Integer(pair.getKey().toString()));
+
+                }
+            }
+
+        return unique;
+
+
+    }
 
 }
+

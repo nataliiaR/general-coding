@@ -6,13 +6,6 @@ import java.util.Arrays;
 
 public class IncludeWord {
 
-    public static void main (String args []){
-        String [] word2 = {"m","o","t","o","f"};
-        String [] word1 = {"f","t","o"};
-        IncludeWord wordVer = new IncludeWord();
-
-        System.out.print(wordVer.isIncluded(word1, word2));
-    }
 
     public String isIncluded(String [] word1, String [] word2) {
         String status = "The word is NOT included";
