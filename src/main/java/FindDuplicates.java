@@ -5,7 +5,7 @@ import java.util.*;
 public class FindDuplicates {
 
 
-    // find the elements that are duplicates using the map data structure
+    // delete the elements that are duplicates using the map data structure
     public Set<Integer> makeASet(int[] listWithDuplicates) {
         Set<Integer> setwithNoduplicates = new HashSet<>();
         for (int i = 0; i < listWithDuplicates.length; i++) {
@@ -15,7 +15,7 @@ public class FindDuplicates {
         return setwithNoduplicates;
     }
 
-    // find the elements that are duplicates using ArrayList data structure
+    // delete the elements that are duplicates using ArrayList data structure
     public ArrayList<Integer> removeDuplicates(int[] listWithDuplicates) {
 
         ArrayList<Integer> listWithNoDuplicates = new ArrayList<>();
