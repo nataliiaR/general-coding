@@ -16,21 +16,15 @@ public class IncludeWordViaMap {
                 break;
 
             }
-            if (arrayTomap.get(word2[j]) > 0)
-
-            {
-
+            if (arrayTomap.get(word2[j]) > 0) {
                arrayTomap.put(word2[j], arrayTomap.get(word2[j])-1);
 
-
             }
-
-            }
-
-
-            return status;
-
         }
+
+
+        return status;
+    }
 
 
 

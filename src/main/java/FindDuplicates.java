@@ -7,7 +7,7 @@ public class FindDuplicates {
 
     // find the elements that are duplicates using the map data structure
     public Set<Integer> makeASet(int[] listWithDuplicates) {
-        Set<Integer> setwithNoduplicates = new HashSet<Integer>();
+        Set<Integer> setwithNoduplicates = new HashSet<>();
         for (int i = 0; i < listWithDuplicates.length; i++) {
             setwithNoduplicates.add(listWithDuplicates[i]);
         }
@@ -18,7 +18,7 @@ public class FindDuplicates {
     // find the elements that are duplicates using ArrayList data structure
     public ArrayList<Integer> removeDuplicates(int[] listWithDuplicates) {
 
-        ArrayList<Integer> listWithNoDuplicates = new ArrayList<Integer>();
+        ArrayList<Integer> listWithNoDuplicates = new ArrayList<>();
         for (int i = 0; i < listWithDuplicates.length; i++) {
             boolean exist = false;
             for (int integer : listWithNoDuplicates) {
@@ -41,9 +41,9 @@ public class FindDuplicates {
     //find elements that appears only once in the list - using map to store key/value and then list to write down needed values
 
     public ArrayList<Integer> extractUnique(Integer[] array) {
-        ArrayList <Integer> unique = new ArrayList<Integer>();
+        ArrayList <Integer> unique = new ArrayList<>();
         //write a map
-        HashMap<Integer, Integer> extractedUniqueElements = new HashMap<Integer, Integer>();
+        HashMap<Integer, Integer> extractedUniqueElements = new HashMap<>();
         for (int i = 0; i < array.length; i++) {
 
             if (extractedUniqueElements.get(array[i]) == null) {
