@@ -5,8 +5,13 @@ import java.util.*;
 public class FindDuplicates {
 
 
+<<<<<<< HEAD
     // find the elements that are duplicates using the map data structure
     public Set<Integer> makeASet(Integer[] listWithDuplicates) {
+=======
+    // delete the elements that are duplicates using the map data structure
+    public Set<Integer> makeASet(int[] listWithDuplicates) {
+>>>>>>> 964be8f85b2a268b0e3c6d1300799292557f8ed8
         Set<Integer> setwithNoduplicates = new HashSet<>();
         for (int i = 0; i < listWithDuplicates.length; i++) {
             setwithNoduplicates.add(listWithDuplicates[i]);
@@ -15,8 +20,13 @@ public class FindDuplicates {
         return setwithNoduplicates;
     }
 
+<<<<<<< HEAD
     // find the elements that are duplicates using ArrayList data structure
     public ArrayList<Integer> removeDuplicates(Integer[] listWithDuplicates) {
+=======
+    // delete the elements that are duplicates using ArrayList data structure
+    public ArrayList<Integer> removeDuplicates(int[] listWithDuplicates) {
+>>>>>>> 964be8f85b2a268b0e3c6d1300799292557f8ed8
 
         ArrayList<Integer> listWithNoDuplicates = new ArrayList<>();
         for (int i = 0; i < listWithDuplicates.length; i++) {
