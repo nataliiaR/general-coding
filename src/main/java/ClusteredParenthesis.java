@@ -19,6 +19,7 @@ public class ClusteredParenthesis {
 
                 } else if (parenthesis.charAt(i) == '}' && stack.peek() != '{') {
                     clustered = false;
+                    break;
                 }
 
                 if (parenthesis.charAt(i) == ']' && stack.peek() == '[') {
@@ -26,12 +27,14 @@ public class ClusteredParenthesis {
 
                 } else if (parenthesis.charAt(i) == ']' && stack.peek() != '[') {
                     clustered = false;
+                    break;
                 }
                 if (parenthesis.charAt(i) == ')' && stack.peek() == '(') {
                     stack.pop();
 
                 } else if (parenthesis.charAt(i) == ')' && stack.peek() != '(') {
                     clustered = false;
+                    break;
                 }
             }
 
