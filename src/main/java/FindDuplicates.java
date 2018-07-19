@@ -28,7 +28,7 @@ public class FindDuplicates {
                 }
 
             }
-            if (!exist) {
+            if (exist == false) {
 
                 listWithNoDuplicates.add(listWithDuplicates[i]);
             }

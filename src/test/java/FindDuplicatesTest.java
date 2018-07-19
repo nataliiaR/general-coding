@@ -7,7 +7,7 @@ public class FindDuplicatesTest {
 
     @Test
     public void removeDuplicatesTest(){
-        int [] listWithDuplicates = {1,1,65,34,76,65,3,1};
+        int [] listWithDuplicates = {1,65,1,65,34,76,65,3,1};
         Integer[] expected = {1,65,34,76,3};
         FindDuplicates finder = new FindDuplicates();
         ArrayList<Integer> actualList= finder.removeDuplicates(listWithDuplicates);
