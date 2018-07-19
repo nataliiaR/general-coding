@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="660db74b-53c0-434c-9c86-731051ecef39" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/FindDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindDuplicates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FindDuplicatesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FindDuplicatesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/IncludeWordViaMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/IncludeWordViaMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FindDuplicatesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FindDuplicatesTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,7 +19,7 @@
       <file leaf-file-name="IncludeWordViaMapTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/IncludeWordViaMapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
+            <state relative-caret-position="287">
               <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -46,7 +43,7 @@
       <file leaf-file-name="IncludeWordTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/IncludeWordTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="210">
               <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -64,10 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindDuplicates.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FindDuplicates.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/FindDuplicates.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="1095">
+              <caret line="73" column="1" lean-forward="true" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,8 +76,8 @@
       <file leaf-file-name="FindDuplicatesTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/FindDuplicatesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+            <state relative-caret-position="45">
+              <caret line="23" column="68" selection-start-line="23" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#455#464#0" expanded="true" />
@@ -92,17 +90,17 @@
       <file leaf-file-name="ClusteredParenthesis.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ClusteredParenthesis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="43" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="43" />
+            <state relative-caret-position="317">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClusteredParenthesisTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ClusteredParenthesisTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ClusteredParenthesisTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="126">
+              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,9 +131,9 @@
         <option value="$PROJECT_DIR$/src/main/java/IncludeWord.java" />
         <option value="$PROJECT_DIR$/src/main/java/IncludeWordViaMap.java" />
         <option value="$PROJECT_DIR$/src/main/java/FindDuplicates.java" />
-        <option value="$PROJECT_DIR$/src/test/java/FindDuplicatesTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ClusteredParenthesis.java" />
         <option value="$PROJECT_DIR$/src/test/java/ClusteredParenthesisTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FindDuplicatesTest.java" />
       </list>
     </option>
   </component>
@@ -361,21 +359,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FindDuplicatesTest - 2018.07.18 at 14h 43m 43s.xml">
-      <configuration name="FindDuplicatesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindDuplicatesTest - 2018.07.18 at 14h 44m 58s.xml">
-      <configuration name="FindDuplicatesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindDuplicatesTest - 2018.07.18 at 14h 45m 10s.xml">
-      <configuration name="FindDuplicatesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindDuplicatesTest - 2018.07.18 at 14h 45m 38s.xml">
-      <configuration name="FindDuplicatesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ClusteredParenthesisTest - 2018.07.19 at 10h 53m 12s.xml">
-      <configuration name="ClusteredParenthesisTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ClusteredParenthesisTest - 2018.07.19 at 10h 53m 43s.xml">
       <configuration name="ClusteredParenthesisTest" configurationId="JUnit" />
     </history-entry>
@@ -389,6 +372,21 @@
       <configuration name="ClusteredParenthesisTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ClusteredParenthesisTest - 2018.07.19 at 10h 56m 18s.xml">
+      <configuration name="ClusteredParenthesisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClusteredParenthesisTest - 2018.07.19 at 10h 58m 35s.xml">
+      <configuration name="ClusteredParenthesisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClusteredParenthesisTest - 2018.07.19 at 10h 59m 12s.xml">
+      <configuration name="ClusteredParenthesisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClusteredParenthesisTest - 2018.07.19 at 10h 59m 43s.xml">
+      <configuration name="ClusteredParenthesisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClusteredParenthesisTest - 2018.07.19 at 11h 00m 00s.xml">
+      <configuration name="ClusteredParenthesisTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClusteredParenthesisTest - 2018.07.19 at 11h 00m 54s.xml">
       <configuration name="ClusteredParenthesisTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -652,26 +650,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Runner.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/IncludeWordTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/IncludeWordViaMapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/IncludeWord.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -689,9 +667,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FindDuplicates.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClusteredParenthesis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="317">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ClusteredParenthesisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/IncludeWordTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/IncludeWordViaMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -700,8 +706,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FindDuplicatesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        <state relative-caret-position="45">
+          <caret line="23" column="68" selection-start-line="23" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#455#464#0" expanded="true" />
@@ -710,17 +716,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ClusteredParenthesis.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/FindDuplicates.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ClusteredParenthesisTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="1095">
+          <caret line="73" column="1" lean-forward="true" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
