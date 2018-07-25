@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="660db74b-53c0-434c-9c86-731051ecef39" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FindDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindDuplicates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FindDuplicatesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FindDuplicatesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ClusteredParenthesis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ClusteredParenthesis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/FindDuplicates.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FindDuplicates.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FindDuplicatesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FindDuplicatesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FindMedianaReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FindMedianaReadFile.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -98,8 +93,8 @@
       <file leaf-file-name="FindMedianaReadFile.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/FindMedianaReadFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="52" column="88" selection-start-line="52" selection-start-column="88" selection-end-line="52" selection-end-column="88" />
+            <state relative-caret-position="975">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,8 +114,8 @@
       <file leaf-file-name="person_data_file" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/person_data_file">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state>
+              <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -402,12 +397,12 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -820,13 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/person_data_file">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FindDuplicates.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -844,10 +832,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/person_data_file">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FindMedianaReadFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="52" column="88" selection-start-line="52" selection-start-column="88" selection-end-line="52" selection-end-column="88" />
+        <state relative-caret-position="975">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
