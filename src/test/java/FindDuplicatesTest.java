@@ -22,7 +22,7 @@ public class FindDuplicatesTest {
         Integer [] listWithDuplicates = {1,1,65,34,76,65,3,1};
         FindDuplicates finder = new FindDuplicates();
         Set<Integer> setwithNoDuplicates= finder.makeASet(listWithDuplicates);
-        Set<Integer> expectedSet = new HashSet<Integer>();
+        Set<Integer> expectedSet = new HashSet<>();
         for (int i=0; i<listWithDuplicates.length; i++) {
             expectedSet.add(listWithDuplicates[i]);
 
