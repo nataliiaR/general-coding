@@ -27,7 +27,7 @@ public class FindMedianaReadFile {
 
     public HashMap <String, Integer> medianValues (String path){
         HashMap<String, Integer> medianValuesMap = new HashMap<>();
-        HashMap<String, ArrayList<String>> hash_map = new HashMap<>();
+        HashMap<String, SortedArrayList> hash_map = new HashMap<>();
         try {
             File file = new File(path);
             FileReader fileReader = new FileReader(file);
@@ -36,18 +36,18 @@ public class FindMedianaReadFile {
 
             while ((line = bufferedReader.readLine()) != null) {
 
-                ArrayList<String> current = new ArrayList<>();
+                SortedArrayList current = new SortedArrayList();
 
                 if (hash_map.get(line.split(",")[1]) == null){
 
-                    current.add(line.split(",")[2]);
+                    current.add(Integer.parseInt(line.split(",")[2]));
 
                     hash_map.put(line.split(",")[1],current);
 
                 }
                 else {
                     current = hash_map.get(line.split(",")[1]);
-                    current.add(line.split(",")[2]);
+                    current.add(Integer.parseInt(line.split(",")[2]));
                     hash_map.put(line.split(",")[1],current);
                 }
             }
@@ -56,7 +56,8 @@ public class FindMedianaReadFile {
             Iterator it = hash_map.entrySet().iterator();
             while (it.hasNext()) {
                 Map.Entry pair = (Map.Entry)it.next();
-                medianValuesMap.put((String) pair.getKey(),median((ArrayList<String>) pair.getValue()));
+                System.out.println(" key  " + (String)pair.getKey() + "  value  " + (SortedArrayList) pair.getValue());
+               // medianValuesMap.put((String) pair.getKey(),median((SortedArrayList) pair.getValue()));
                 it.remove();
 
         }
@@ -72,7 +73,6 @@ public class FindMedianaReadFile {
 
     public Integer median (ArrayList<String> arraylist){
         Integer medianValue = 0;
-        Collections.sort(arraylist);
         int i = (arraylist.size())%2;
         medianValue = Integer.parseInt(arraylist.get(i));
         return medianValue;
