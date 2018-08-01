@@ -57,7 +57,7 @@ public class FindMedianaReadFile {
             while (it.hasNext()) {
                 Map.Entry pair = (Map.Entry)it.next();
                 System.out.println(" key  " + (String)pair.getKey() + "  value  " + (SortedArrayList) pair.getValue());
-               // medianValuesMap.put((String) pair.getKey(),median((SortedArrayList) pair.getValue()));
+                medianValuesMap.put((String) pair.getKey(),median((SortedArrayList) pair.getValue()));
                 it.remove();
 
         }
@@ -71,10 +71,10 @@ public class FindMedianaReadFile {
     }
 
 
-    public Integer median (ArrayList<String> arraylist){
+    public Integer median (SortedArrayList arraylist){
         Integer medianValue = 0;
-        int i = (arraylist.size())%2;
-        medianValue = Integer.parseInt(arraylist.get(i));
+        int i = (arraylist.size())%2+1;
+        medianValue = arraylist.get(i);
         return medianValue;
 
     }
