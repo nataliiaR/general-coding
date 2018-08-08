@@ -3,42 +3,41 @@ import java.util.ArrayList;
 public class SortedArrayList extends ArrayList<Integer> {
 
     @Override
-    public boolean add (Integer obj){
+    public boolean add(Integer obj) {
 
         Integer temp;
-        if (super.isEmpty()){
+        if (super.isEmpty()) {
             super.add(obj);
-            System.out.println("my Store" + super.toString());
-            System.out.println("myStore size "+ super.size());
 
         }
         else {
-            for (int i=0; i<super.size(); i++) {
-                if ( super.get(i) >= obj) {
-                    temp =  super.get(i);
-                    System.out.println("temp  "+ temp);
+            for (int i = 0; i < super.size(); i++) {
 
-                    System.out.println("array object new "+ super.get(i));
-                    System.out.println("oblect new" + obj );
+                if (super.get(super.size()-1)  <= obj) {
+
+                    super.add(obj);
+                    System.out.println("my new Store" + super.toString());
+
+                    break;
+
+                }
+
+                else if (super.get(i) > obj) {
 
                     super.add(i, obj);
 
-                    System.out.println("myStore size second "+ super.size());
-                    break;
-
-
-                    } else {
-                    System.out.println("array object  "+ super.get(i));
-                    System.out.println("object " + obj );
-                    super.add(obj);
                     System.out.println("my new Store" + super.toString());
-                    System.out.println("myStore new size "+ super.size());
                     break;
+
+
                 }
+
             }
         }
 
         return true;
-    }
+
+        }
+
 
 }

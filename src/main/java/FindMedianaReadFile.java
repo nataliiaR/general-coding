@@ -18,6 +18,7 @@ public class FindMedianaReadFile {
         Iterator it = hash_map.entrySet().iterator();
         while (it.hasNext()) {
             Map.Entry pair = (Map.Entry)it.next();
+
             System.out.println("City " + pair.getKey() + " median age value " + pair.getValue());
             it.remove();
 
@@ -57,6 +58,7 @@ public class FindMedianaReadFile {
             while (it.hasNext()) {
                 Map.Entry pair = (Map.Entry)it.next();
                 System.out.println(" key  " + (String)pair.getKey() + "  value  " + (SortedArrayList) pair.getValue());
+                System.out.println("median + " + median((SortedArrayList) pair.getValue()));
                 medianValuesMap.put((String) pair.getKey(),median((SortedArrayList) pair.getValue()));
                 it.remove();
 
@@ -72,9 +74,10 @@ public class FindMedianaReadFile {
 
 
     public Integer median (SortedArrayList arraylist){
-        Integer medianValue = 0;
-        int i = (arraylist.size())%2+1;
-        medianValue = arraylist.get(i);
+        int sizeOfArr ;
+        int medianValue;
+        sizeOfArr= arraylist.size()/2;
+        medianValue= arraylist.get(sizeOfArr);
         return medianValue;
 
     }
